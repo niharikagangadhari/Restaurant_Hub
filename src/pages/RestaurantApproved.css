@@ -1,0 +1,174 @@
+.approved-page{
+    min-height:100vh;
+    background:#020617;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.approved-card{
+
+    width:100%;
+    max-width:750px;
+
+    background:#0f172a;
+
+    border:1px solid #334155;
+
+    border-radius:24px;
+
+    padding:45px;
+
+    text-align:center;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+
+}
+
+.approved-icon{
+
+    width:110px;
+    height:110px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#10b981;
+
+    color:white;
+
+    font-size:60px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.approved-card h1{
+
+    color:white;
+
+    margin-top:25px;
+
+    font-size:38px;
+
+}
+
+.subtitle{
+
+    color:#94a3b8;
+
+    margin:18px 0 35px;
+
+    line-height:1.7;
+
+}
+
+.status-box{
+
+    background:#1e293b;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+}
+
+.status-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    color:white;
+
+    padding:12px 0;
+
+    border-bottom:1px solid #334155;
+
+}
+
+.status-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.approved-status{
+
+    color:#10b981;
+
+    font-weight:bold;
+
+}
+
+.message-box{
+
+    background:#132238;
+
+    border-left:5px solid #10b981;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    text-align:left;
+
+    margin-bottom:35px;
+
+}
+
+.message-box h3{
+
+    color:white;
+
+    margin-bottom:18px;
+
+}
+
+.message-box ul{
+
+    color:#cbd5e1;
+
+    line-height:2;
+
+    padding-left:20px;
+
+}
+
+.login-btn{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#10b981;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#059669;
+
+    transform:translateY(-2px);
+
+}

@@ -1,0 +1,138 @@
+.verification-page {
+    min-height: 100vh;
+    background: #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.verification-card {
+    width: 100%;
+    max-width: 750px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 24px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.pending-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    background: #f59e0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.verification-card h1 {
+    color: white;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+}
+
+.verification-card .subtitle {
+    color: #94a3b8;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.progress-box {
+    background: #1e293b;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.progress-box h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.progress-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+.progress-step:last-child {
+    margin-bottom: 0;
+}
+
+.step-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.completed {
+    background: #10b981;
+    color: white;
+}
+
+.current {
+    background: #f59e0b;
+    color: white;
+}
+
+.upcoming {
+    background: #475569;
+    color: white;
+}
+
+.info-box {
+    background: #132238;
+    border-left: 5px solid #f59e0b;
+    border-radius: 12px;
+    padding: 22px;
+    color: #cbd5e1;
+    text-align: left;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.demo-button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: #10b981;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.demo-button:hover {
+    background: #059669;
+    transform: translateY(-2px);
+}
+
+@media (max-width:768px){
+
+    .verification-card{
+        padding:30px;
+    }
+
+    .verification-card h1{
+        font-size:1.8rem;
+    }
+
+}

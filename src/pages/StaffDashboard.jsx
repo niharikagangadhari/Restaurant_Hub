@@ -1,0 +1,17 @@
+export default function StaffDashboard() {
+
+  return (
+
+    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+
+      <h1 className="text-5xl text-white">
+
+        Staff Dashboard
+
+      </h1>
+
+    </div>
+
+  );
+
+}
