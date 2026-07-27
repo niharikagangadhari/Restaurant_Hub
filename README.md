@@ -133,9 +133,3 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 **G. Niharika**
 
 Institute of Aeronautical Engineering (IARE)
-
----
-
-## 📄 License
-
-This project is developed for educational and hackathon purposes.
